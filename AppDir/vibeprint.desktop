@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Vibeprint Studio
+Comment=Automatically layout and print images in a ICC aware environment
+Icon=vibeprint-studio
+Exec=studio
+Type=Application
+Terminal=false
+Categories=Office;Printing;
+StartupWMClass=studio
