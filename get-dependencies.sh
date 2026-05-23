@@ -7,6 +7,7 @@ ARCH=$(uname -m)
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
+    cargo \
     cups    \
     libcups \
     lcms2 \
@@ -31,3 +32,4 @@ echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
 cd vibeprint
+cargo build --release
