@@ -7,7 +7,7 @@
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/Vibeprint-Studio-AppImage)](https://github.com/pkgforge-dev/Vibeprint-Studio-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://github.com/pkgforge-dev.png" width="128" />
+  <img src="https://raw.githubusercontent.com/crenedecotret/vibeprint/refs/heads/main/assets/icons/vibeprint-studio.png" width="128" />
 </p>
 
 
