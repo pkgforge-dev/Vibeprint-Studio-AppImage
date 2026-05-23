@@ -33,3 +33,4 @@ echo "$VERSION" > ~/version
 mkdir -p ./AppDir/bin
 cd vibeprint
 cargo build --release
+mv target/release/vibeprint target/release/studio ../AppDir/bin
