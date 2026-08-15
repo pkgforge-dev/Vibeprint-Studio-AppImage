@@ -12,8 +12,6 @@ export ICON=https://raw.githubusercontent.com/crenedecotret/vibeprint/refs/heads
 # Deploy dependencies
 quick-sharun ./AppDir/bin/studio ./AppDir/bin/vibeprint
 
-# Additional changes can be done in between here
-
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
 
