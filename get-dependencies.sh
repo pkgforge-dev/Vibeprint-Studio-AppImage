@@ -7,11 +7,11 @@ ARCH=$(uname -m)
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
-    cargo \
-    cups    \
-    libcups \
-    lcms2 \
-    libxrandr \
+    cargo       \
+    cups        \
+    libcups     \
+    lcms2       \
+    libxrandr   \
     ghostscript \
     libtiff
 
