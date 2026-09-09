@@ -23,7 +23,7 @@ echo "Building Vibeprint Studio..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/crenedecotret/vibeprint"
 VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
-git clone "$REPO" ./vibeprint
+git clone --depth 1 "$REPO" ./vibeprint
 echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
